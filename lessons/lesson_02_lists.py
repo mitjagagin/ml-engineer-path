@@ -1,14 +1,11 @@
-# Урок 2: Списки, цикл for
-# Автор: Дмитрий Гагин
-# Цель: Изучить что такое списки и для чего они нужны. Цикл for и его применение.
+# lesson_02_lists.py | Дмитрий Гагин | Списки, индексы, циклы
 
-students: list[str] = ["Дмитрий", "Тимофей", "Арина"]
-students.append("Ольга")
+students: list[str] = ["Дмитрий", "Тимофей", "Арина"] # список студентов
+students.append("Ольга") # добавляем в список
 
-for student in students:
-    print(f"Cтудент: {student}")
+if __name__ == "__main__":
+    for student in students: # в цикле
+        print(f"Студент: {student}") # выводим студентов
 
-print(f"Список студентов: {students}")
-print(f"Первый студент: {students[0]}")
-
-
+    print(f"Список студентов: {students}") # выводим весь список
+    print(f"Первый студент: {students[0]}") # выводим первый элемент

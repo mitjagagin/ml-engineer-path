@@ -14,5 +14,4 @@ person: dict[str, Union[int, str]] = {
 for key, value in person.items():
     print(f"{key}: {value}")
 
-print(person)
-print(person["name"])
+print(f"Имя личности: {person['name']}")

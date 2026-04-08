@@ -15,5 +15,5 @@ class Person:
         print(f"Привет, меня зовут {self.name}, мне {self.age} лет")
 
 person = Person("Дмитрий", 45)
-print(f"{person.name}, {person.age} лет")
+print(f"Имя: {person.name}, возраст: {person.age} лет")
 person.greet()

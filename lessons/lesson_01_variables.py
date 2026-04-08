@@ -5,11 +5,11 @@
 answer: int = 42 # ответ
 floor: int = 9 # этаж
 pi: float = 3.14 # число Пи
-name: str = "Bob" # имя
+name: str = "Дмитрий" # имя
 is_ml_engineer: bool = True # должность
 
-print(answer) # печатаем ответ
-print(floor) # печатаем этаж
-print(pi) # печатаем Пи
-print(name) # печатаем имя
-print(is_ml_engineer) # печатаем должность
+print(f"Имя: {answer}") # печатаем ответ
+print(f"Этаж: {floor}") # печатаем этаж
+print(f"Число Пи: {pi}") # печатаем Пи
+print(f"Имя: {name}") # печатаем имя
+print(f"Является AI/ML инженером?: {is_ml_engineer}") # печатаем должность

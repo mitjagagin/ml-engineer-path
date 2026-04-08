@@ -2,13 +2,13 @@
 # Автор: Дмитрий Гагин
 # Цель: Изучить что такое списки и для чего они нужны. Цикл for и его применение.
 
-students: list[str] = ["Bob", "John", "Michael"]
-students.append("Anna")
+students: list[str] = ["Дмитрий", "Тимофей", "Арина"]
+students.append("Ольга")
 
 for student in students:
-    print(student)
+    print(f"Cтудент: {student}")
 
-print(students)
-print(students[0])
+print(f"Список студентов: {students}")
+print(f"Первый студент: {students[0]}")
 
 

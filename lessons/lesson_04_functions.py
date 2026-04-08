@@ -4,11 +4,11 @@
 
 def greet(name: str) -> None:
     """Функция принимает имя в виде строки и печатает на экран приветствие"""
-    print(f"Hello, {name}!")
+    print(f"Привет, {name}!")
 
 def add(num1: int, num2: int) -> int:
     """Функция принимает два целых числа, суммирует их и возвращает результат"""
     return num1 + num2
 
-greet("Bob")
-print(add(4, 4))
+greet("Дмитрий")
+print(f"Сумма: {add(4, 4)}")

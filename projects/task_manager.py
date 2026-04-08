@@ -27,7 +27,10 @@ class TaskManager:
     def show_tasks(self) -> None:
         """Выводит список всех задачь с названием и статусом"""
         for task in self.tasks:
-            print(f"Название задачи: {task.title}. Задача выполнена: {task.is_done}")
+            if task.is_done:
+                print(f'Задача "{task.title}" выполнена')
+            else:
+                print(f'Задача "{task.title}" не выполнена')
 
 manager = TaskManager()
 manager.add_task("Выучить Пайтон")
